@@ -17,11 +17,25 @@
       Ore: 
       <input type="text" id="text" disabled style= text-align:center>
       <script>
-        var ore = 0
+        var ore = 0;
         function mine() {
-        ore = ore + 1
-        document.getElementById('text').value = ore
-        document.title = "You have: " + ore + " Ore"
+        ore = ore + 1;
+        document.getElementById('text').value = ore;
+        document.title = "You have: " + ore + " Ore";
         }
       </script>
+      <br><br>
+      <button><a href='#'-onClick"save()">Save your progress</a></button>
+      <br>
+      <button><a href='#'-onClick"load()">Load your progress</a></button>
+      <script>
+        function save() {
+        localstorage.setItem("ore", ore);
+        }
+        function load() {
+        ore = localStorage.getItem('ore');
+        }
+      </script>
+      
 </html>
+
