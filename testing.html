@@ -12,7 +12,14 @@
   </head>
   <body>
     <div>
-      <img src="r.png">
-    </div>
-  </body>
+      <a href# onclick="mine()"><img src="r.png"></a>
+      <br><br>
+      <input type="text" id="text" disabled style= text-align:center>
+      <script>
+        var ore = 0
+        function mine() {
+        ore = ore + 1
+        document.getElementById('text').value = ore
+        }
+      </script>
 </html>
