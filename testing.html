@@ -2,7 +2,7 @@
 <html>
   <head>
     <link rel="shortcut icon" href="/favicon (4).ico" type="image/x-icon"/>
-    <title>Idle Digger||V:1.0</title>
+    <title>You have 0 Ore</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald">
     <style>
       body {
@@ -21,6 +21,7 @@
         function mine() {
         ore = ore + 1
         document.getElementById('text').value = ore
+        document.title = "You have: " + ore + " Ore"
         }
       </script>
 </html>
