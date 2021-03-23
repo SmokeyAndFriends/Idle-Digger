@@ -9,6 +9,7 @@ function mine_ore() {
   
   ore = ore + 1; 
   energy = ore - stamina; //this equation is needed to help the upgrades work properly
+  document.getElementByID
 };
 
 function protocall_smc() {
