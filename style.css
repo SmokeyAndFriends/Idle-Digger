@@ -5,3 +5,9 @@ body {
 .clicker {
   border: 10px outset #403535;
 }
+
+.label {
+   background-color: #da0909;
+   border: 14px ridge #4b3333;
+   
+}
