@@ -1,10 +1,10 @@
 body {
   padding-top: 40px;
+  background: #a06535 url(assets/game_bg.jpg) no-repeat center center;
+  background-size: cover;
 }
 
-.clicker {
-  border: 1px outset #403535;
-}
+
 
 #ore {
    background-color: #da0909;
