@@ -6,7 +6,7 @@ body {
   border: 10px outset #403535;
 }
 
-.ore {
+#ore {
    background-color: #da0909;
    border: 14px ridge #4b3333;
    text-align: center;
